@@ -33,30 +33,27 @@ nav a:hover{
 }
 section {
     display: flex;
+    justify-content: space-between;
     color: #483D8B;
     padding: 3%;
+}
+
+div {
+    position: relative;
+    flex-basis: 60%;
 }
 h2 {
     border-right: 5px solid  var(--dark);
     font-size: 200%;  
     padding: 3%;
+    flex-basis: 30%;
 }
 #about-me{
-    margin-left: 15px;
+    margin-top: 30px;
     text-align: center;
-    padding: 4%;
 }
-footer{
-    display: flex;
-    color: #483D8B;
-    padding: 1%;
-    background: var(--background);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%; 
-    justify-content: space-between;
-    align-items: center;
+figure {
+    position: relative;
 }
 img {
     width:100%;
@@ -64,9 +61,20 @@ img {
     border: 3px solid var(--dark);
     margin: 30px;
 }
-
+.extra-img {
+    max-width: 100px;
+    max-height: 100px;
+}
 .bottom-left {
     position: absolute;
-    bottom: 8px;
-    left: 200px;
+
   }
+  footer{
+    display: flex;
+    color: #483D8B;
+    padding: 3%;
+    background: var(--background);
+    width: 100%; 
+    justify-content: space-between;
+    align-items: center;
+}
