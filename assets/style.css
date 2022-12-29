@@ -3,11 +3,6 @@
     --light: #FFEBCD;
     --dark: #483D8B;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
 
 header {
     display:flex;
@@ -55,20 +50,54 @@ h2 {
 }
 figure {
     position: relative;
+    display: flex;
+    flex-direction: row ;
+    justify-content: space-evenly;
 }
 img {
     width:100%;
     padding: 15px;
     border: 3px solid var(--dark);
-    margin: 30px;
+   
 }
 .extra-img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 300px;
+    max-height: 300px;
 }
-.bottom-left {
+/* .bottom-left {
     position: absolute;
 
+  } */
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.C1{
+    background-image: url("https://www.pngitem.com/pimgs/m/476-4768356_html-css-javascript-logo-clipart-png-download-html.png");
+    min-height: 400px;
+    background-size: 100%;
+    flex-basis: 100%;
+    display: flex;
+    align-items: flex-end;
+    margin: 0.5em;
+    border: 3px solid var(--dark);
+  }
+  .box-item{
+    display: flex;
+    align-items: flex-end;
+    flex-basis: calc(50% - 1em);
+    background-size: 100%;
+    min-height: 175px;
+    max-height: 175px;
+    margin: 0.5em;
+    border: 3px solid var(--dark);
+  }
+  .C2{
+    background-image: url("https://thumbs.dreamstime.com/b/d-render-pre-workout-powder-container-isolated-over-white-background-104402902.jpg");
+  }
+  .C3{
+    background-image: url("https://media.istockphoto.com/id/1332167985/photo/coming-soon-neon-sign-the-banner-shining-light-signboard-collection.jpg?b=1&s=170667a&w=0&k=20&c=Le4B-lJt-jXjeAOdlTQptNvN_DmRwWF19ShNc5VY4a4=");
   }
   footer{
     display: flex;
