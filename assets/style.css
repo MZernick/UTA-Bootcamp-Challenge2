@@ -74,7 +74,6 @@ img {
     justify-content: center;
 }
 .C1{
-    background-image: url("https://www.pngitem.com/pimgs/m/476-4768356_html-css-javascript-logo-clipart-png-download-html.png");
     min-height: 400px;
     background-size: 100%;
     flex-basis: 100%;
@@ -82,6 +81,7 @@ img {
     align-items: flex-end;
     margin: 0.5em;
     border: 3px solid var(--dark);
+    background-position: center;
   }
   .box-item{
     display: flex;
